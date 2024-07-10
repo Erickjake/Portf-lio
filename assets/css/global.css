@@ -15,7 +15,7 @@ body{
     height: 2rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url(./assets/imagens/Group\ 481411.svg);
+    background-image: url(assets/imagens/Group\ 481411.svg);
 }
 /* Animação do degrade do fundo */
 @keyframes gradient {
