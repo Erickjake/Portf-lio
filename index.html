@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/acordeon.css">
+    <link rel="stylesheet" href="/assets/css/languages.css">
+    <link rel="stylesheet" href="/assets/css/portfolio.css">
+    <link rel="stylesheet" href="/assets/css/experience.css">
+    <link rel="stylesheet" href="/assets/css/skills.css">
+    <title>Portfólio</title>
+</head>
+<body>
+    <main>
+        <header class="pessoal">
+                <img class="imagem " id="profile.photo" src="/assets/imagens/Eu.jpg" alt="Imagem_pessoal">
+                <h1 class="titulo">Olá, eu sou <span id="profile.name">Erickson Costa</span>!</h1>
+            
+            <div class="endereco">
+                <h3 class="logo1" id="profile.job">Estudante e intusiatas de Tecnologia </h3>
+                <h3 class="logo2" id="profile.location">Téofilo - Otoni -- MG</h3>
+                <h3 class="logo3" ><a href="tel:(33)99864-5727" id="phone1">(33)99864-5727</a></h3>
+                <h3 class="logo4" ><a href="mailto:ericsonmano@gmail.com" id="email1">ericsonmano@gmail.com</a></h3>
+            </div>
+        </header>
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                Skills
+            </button>
+            <div class="content">
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Ferramentas:</h3>
+                        <ul>
+                            <li>
+                                <img src="/assets/imagens/javascript.svg" alt="javascript" title="javascript">
+                            </li>
+                            <li>
+                                <img src="/assets/imagens/css.svg" alt="css" title="css">
+                            </li>
+                            <li>
+                                <img src="/assets/imagens/html.svg" alt="html" title="html">
+                            </li>
+                            <li>
+                                <img src="/assets/imagens/python.svg" alt="python" title="python">
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="personal">
+                        <h3>Pessoal:</h3>
+                        <ul id="profile.skills.softSkills">
+                            <li>Organização</li>
+                            <li>Engajamento</li>
+                            <li>Flexibilidade</li>
+                        </ul>
+                    </section>
+                </div>
+                
+            </div>   
+        </section>
+        <section class="acordeon ">
+            <button class="trigger" type="button">
+                Idiomas
+            </button>
+            <div class="content">
+                <ul class="languages" id="language">
+                    <li>Português</li>
+                    <li>Ingles</li>
+                    <li>Espanhol</li>
+                </ul>
+            </div>   
+        </section>
+        <section class="acordeon ">
+            <button class="trigger" type="button">
+                Portfólio
+            </button>
+            <div class="content">
+               <ul class="portfolio" id="profile.portfolio">
+                <li><span class="title github">Item</span><a href="https://www.google.com" target="_blank">http:www.google.com</a></li>
+                <li><span class="title github">Item</span><a href="https://www.google.com" target="_blank">http:www.google.com</a></li>
+                <li><span class="title github">Item</span><a href="https://www.google.com" target="_blank">http:www.google.com</a></li>
+               </ul>
+            </div>   
+        </section>
+        <section class="acordeon ">
+            <button class="trigger" type="button">
+                Experência Profissional
+            </button>
+            <div class="content">
+                <ul class="experience" id="experience">
+    
+                </ul>
+            </div>   
+        </section>
+    </main>
+    <script src="/assets/js/acordeon.js"></script>
+    <script src="/assets/js/api.js"></script>
+    <script src="/assets/js/main.js"></script>
+</body>
+<footer>
+
+</footer>
+</html>

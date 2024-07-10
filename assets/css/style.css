@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@font-face {
+    font-family: "Titulo";
+    src: url(/assets/fonts/NeueMachina-Regular.otf);
+}
+*{
+    font-family: "Open Sans", sans-serif;
+}
+/* Estilo Corpo do Site */
+.pessoal{
+    padding: 8%;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    color: white;
+    font-size: 0.6rem;
+    flex-wrap: wrap;
+}
+.pessoal a{
+    text-decoration: none;
+    color: greenyellow;
+}
+.pessoal img{
+    width: 30vw;
+    border-radius: 50%;
+}
+
+.pessoal h1{
+    font-family: 'Titulo';
+    font-size: 1.5rem;
+}
+
+.pessoal h3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .5rem;
+
+}
+.pessoal .logo1::before{
+    padding-right: .2rem;
+    content: '';
+    display: inline-block; 
+    background-image: url('/assets/imagens/Group.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1rem;
+    height: 1rem;
+    margin-right: .5rem;
+}
+.pessoal .logo2::before{
+    padding-right: .2rem;
+    content: '';
+    display: inline-block; 
+    background-image: url('/assets/imagens/Vector.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1rem;
+    height: 1rem;
+    margin-right: .5rem;
+}
+.pessoal .logo3::before{
+    padding-right: .2rem;
+    content: '';
+    display: inline-block; 
+    background-image: url('/assets/imagens/Vector\ \(1\).svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1rem;
+    height: 1rem; 
+    margin-right: .5rem;
+}
+.pessoal .logo4::before{
+    padding-right: .2rem;
+    content: '';
+    display: inline-block; 
+    background-image: url('/assets/imagens/Group\ \(1\).svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1rem;
+    height: 1rem;
+    margin-right: .5rem;
+}
+
+
+/* Responsividade */
+@media only screen and (min-width: 700px){
+    .pessoal{
+        display: grid;
+        grid-template-areas:
+         "imagem titulo"
+         "imagem endereco"
+         ;
+         width: auto;
+        
+    }
+    .titulo {
+        width: auto;
+        height: auto;
+        grid-area: titulo;
+    }
+    .imagem{
+        margin: 0 auto;
+        grid-area: imagem;
+    }
+    .endereco{
+        font-size: medium;
+        grid-area: endereco;
+    }
+    .pessoal img{
+        width: 30vw;
+    }
+}

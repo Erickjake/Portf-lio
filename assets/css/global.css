@@ -1,0 +1,57 @@
+body{
+    background: linear-gradient(-50deg,#50a005dc, #1a1919,#050505, #32c00b);
+    background-size: 300% 300%;
+    color: rgb(0, 0, 0);
+    animation: gradient 10s ease infinite alternate;
+}
+
+.pessoal::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/assets/imagens/Group\ 481411.svg);
+}
+/* Animação do degrade do fundo */
+@keyframes gradient {
+    0%{
+        background-position: 0% 30%;
+    }
+    50%{
+        background-position: 100% 30%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+    
+}
+
+main{
+    padding: .5rem;
+    margin: .5rem;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 1rem;
+}
+
+@media screen and (min-width:1024px){
+    main{
+        max-width: 1024px;
+        height: auto;
+        margin: 1rem auto;}
+    
+    .pessoal img{
+        width: 15vw;
+    }
+    .imagem{
+        margin-left: 6rem;
+    }
+    h3{
+        gap: 8px;
+        padding-bottom: 2px;
+    }
+}
