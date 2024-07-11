@@ -26,15 +26,10 @@
         {
           "name": "Mongodb",
           "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
-        },
-        {
-          "name": "Postgresql",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
         }
       ],
       "softSkills": [
         "Empatia",
-        "Liderança",
         "Trabalho em equipe",
         "Flexibilidade",
         "Organização"
@@ -46,31 +41,26 @@
     ],
     "portfolio": [
       {
-        "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
+        "name": "Uma Pokedex que você Consegue ver seu pokémon favorito",
         "url": "https://erickjake.github.io/Pokedex/",
         "github": true
       },
       {
-        "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-        "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+        "name": "Site Clone Do MAX",
+        "url": "https://erickjake.github.io/Max/",
         "github": true
       }
     ],
     "professionalExperience": [
       {
-        "name": "Arquiteto de software / S3 BANK",
+        "name": "Mercado-Livre/Logística",
         "period": "2022 - até o momento",
         "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
       },
       {
-        "name": "Software Engineering Lead / DIO",
-        "period": "2021 - 2022",
+        "name": "SuperMercado-EPA/Auxiliar De Perecivéis",
+        "period": "2020 - 2022",
         "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
-      },
-      {
-        "name": "CEO / Brain Machine",
-        "period": "2016 - 2021",
-        "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
       }
     ]
   }
