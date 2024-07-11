@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @font-face {
     font-family: "Titulo";
-    src: url('./fonts/NeueMachina-Regular.otf');
+    src: url('../fonts/NeueMachina-Regular.otf');
 }
 *{
     font-family: "Open Sans", sans-serif;
@@ -45,7 +45,7 @@
     padding-right: .2rem;
     content: '';
     display: inline-block; 
-    background-image: url('./imagens/Group.svg');
+    background-image: url('../imagens/Group.svg');
     background-repeat: no-repeat;
     background-size: contain;
     width: 1rem;
@@ -56,7 +56,7 @@
     padding-right: .2rem;
     content: '';
     display: inline-block; 
-    background-image: url('./imagens/Vector.svg');
+    background-image: url('../imagens/Vector.svg');
     background-repeat: no-repeat;
     background-size: contain;
     width: 1rem;
@@ -67,7 +67,7 @@
     padding-right: .2rem;
     content: '';
     display: inline-block; 
-    background-image: url('./imagens/Vector\ \(1\).svg');
+    background-image: url('../imagens/Vector\ \(1\).svg');
     background-repeat: no-repeat;
     background-size: contain;
     width: 1rem;
